@@ -1,0 +1,68 @@
+
+// Program: Vertical Volume
+// Developer: Forex Robot Easy Team
+// Developer's site: forexroboteasy.com
+
+// This program is a trading robot based on the Vertical Volume Indicator.
+
+#property copyright 'Forex Robot Easy Team'
+#property link    'forexroboteasy.com'
+
+// Variables
+int shiftBorder = 10; // Shift end of the chart border from right border
+bool resetBarData = false; // Flag to reset bar data
+
+// Function to calculate volume data for price
+void calculateVolumeData()
+{
+    // Implementation of volume calculation for EURUSD currency pair
+    // ...
+    // ...
+}
+
+// Function to work with other currency pairs
+void workWithOtherCurrencyPairs()
+{
+    // Implementation to work with other currency pairs
+    // ...
+    // ...
+}
+
+// Function to enable shift border
+void enableShiftBorder()
+{
+    // Implementation to enable shift border
+    // ...
+    // ...
+}
+
+// Function to reset bar data
+void resetBarDataIfNeeded()
+{
+    // Check if new bar data reset is required
+    if (resetBarData)
+    {
+        // Implementation to reset bar data
+        // ...
+        // ...
+    }
+}
+
+// Entry point of the program
+int start()
+{
+    // Calculate volume data for price
+    calculateVolumeData();
+    
+    // Work with other currency pairs
+    workWithOtherCurrencyPairs();
+    
+    // Enable shift border
+    enableShiftBorder();
+    
+    // Reset bar data if needed
+    resetBarDataIfNeeded();
+    
+    // Return a logical conclusion
+    return 0;
+}
